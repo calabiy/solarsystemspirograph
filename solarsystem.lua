@@ -3,7 +3,7 @@ require ("Spirograph")
 local planets = {
   mercury = {
     calc = function() spiro(40, 10, 0, 170, false, coroutine.yield) end,
-    draw = function(cx, cy, x, y) pncl("#000000") crcl(cx, cy, 6, "#666688") end,
+    draw = function(cx, cy, x, y) pncl("#000000") crcl(cx, cy, 6, "#666688") end, 
   },
   venus = {
     calc = function() spiro(90, 10, 0, 480, false, coroutine.yield) end,
